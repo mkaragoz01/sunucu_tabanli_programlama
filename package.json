@@ -2,7 +2,7 @@
   "name": "sunucu_tabanli_programlama",
   "version": "1.0.0",
   "description": "Sunucu Tabanlı Programlama",
-  "main": "ders1.js",
+  "main": "app.js",
   "scripts": {
     "devStart": "nodemon app.js"
   },
