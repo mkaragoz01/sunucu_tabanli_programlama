@@ -6,6 +6,7 @@ require("dotenv/config")
 
 app.set('view engine', 'ejs')
 
+//request veri çekme responsive gönderme
 app.get('/', function (req, res) {
   //res.send('Hello World')
   //res.download("app.js")
