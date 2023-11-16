@@ -12,7 +12,7 @@ dbConn.connect((err)=>{
   if(!err){
     console.log("Veritabanına Bağlandı")
   }else{
-    console.log("Bağlantı Hatası!!!")
+    console.log("Bağlantı Hatası: "+err)
   }
 })
 
