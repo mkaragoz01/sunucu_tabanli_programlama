@@ -1,4 +1,4 @@
-const router = require("express").Router()
-const routes = require("./routers")
+const router=require("express").Router()
+const routes=require('./routes')
 router.use(routes)
-module.exports = router
+module.exports=router
