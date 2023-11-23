@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 
 app.get('/app', function (req, res) {
     res.send('app sayfası')
-  })
+})
 
 
 //Midllewares
